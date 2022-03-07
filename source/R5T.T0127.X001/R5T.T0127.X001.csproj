@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.B0002\source\R5T.B0002.X001\R5T.B0002.X001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0101\source\R5T.D0101.Base\R5T.D0101.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D0101\source\R5T.D0101.X001\R5T.D0101.X001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.X0002\source\R5T.X0002\R5T.X0002.csproj" />
+    <ProjectReference Include="..\R5T.T0127\R5T.T0127.csproj" />
+  </ItemGroup>
+
+</Project>
