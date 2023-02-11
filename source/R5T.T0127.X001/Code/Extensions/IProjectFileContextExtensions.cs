@@ -41,7 +41,7 @@ namespace System
         }
 
         /// <summary>
-        /// Chooses <see cref="AddDependencyProjectReferencesByIdentityStrings_Idempotent(IProjectFileContext, IEnumerable{string})"/> as the default.
+        /// Chooses <see cref="AddDependencyProjectReferencesByIdentityStrings_Idempotent(IProjectFileContext, IProjectRepository, IEnumerable{string})"/> as the default.
         /// </summary>
         public static async Task AddDependencyProjectReferences(this IProjectFileContext projectFileContext,
             IProjectRepository projectRepository,

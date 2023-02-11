@@ -7,7 +7,7 @@ namespace R5T.T0127
 {
     public interface IClassSyntaxContext
     {
-        ClassDeclarationAnnotation ClassAnnotation { get; }
+        ClassAnnotation ClassAnnotation { get; }
         INamespaceSyntaxContext NamespaceContext { get; }
     }
 }

@@ -10,7 +10,7 @@ namespace R5T.T0127
         #region From
 
         public static ClassSyntaxContext From(
-            ClassDeclarationAnnotation classAnnotation,
+            ClassAnnotation classAnnotation,
             INamespaceSyntaxContext namespaceContext)
         {
             var output = new ClassSyntaxContext
@@ -25,7 +25,7 @@ namespace R5T.T0127
         #endregion
 
 
-        public ClassDeclarationAnnotation ClassAnnotation { get; set; }
+        public ClassAnnotation ClassAnnotation { get; set; }
         public INamespaceSyntaxContext NamespaceContext { get; set; }
     }
 }

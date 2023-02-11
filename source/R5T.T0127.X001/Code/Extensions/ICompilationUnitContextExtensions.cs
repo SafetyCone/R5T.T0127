@@ -94,7 +94,7 @@ namespace System
                 outputCompilationUnit = outputCompilationUnit.AddNamespace(annotatedNamespace);
             }
 
-            var namespaceAnnotation = NamespaceDeclarationAnnotation.From(annotation);
+            var namespaceAnnotation = NamespaceAnnotation.From(annotation);
 
             var namespaceContext = NamespaceSyntaxContext.From(namespaceAnnotation);
 

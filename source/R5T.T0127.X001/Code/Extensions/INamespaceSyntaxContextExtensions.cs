@@ -44,7 +44,7 @@ namespace System
                 outputCompilationUnit = outputCompilationUnit.ReplaceNode_Better(@namespace, newNamespace);
             }
 
-            var classAnnotation = ClassDeclarationAnnotation.From(annotation);
+            var classAnnotation = ClassAnnotation.From(annotation);
 
             var classContext = ClassSyntaxContext.From(
                 classAnnotation,

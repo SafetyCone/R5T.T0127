@@ -9,7 +9,7 @@ namespace R5T.T0127
     {
         #region Static
 
-        public static NamespaceSyntaxContext From(NamespaceDeclarationAnnotation namespaceDeclarationAnnotation)
+        public static NamespaceSyntaxContext From(NamespaceAnnotation namespaceDeclarationAnnotation)
         {
             var output = new NamespaceSyntaxContext
             {
@@ -22,6 +22,6 @@ namespace R5T.T0127
         #endregion
 
 
-        public NamespaceDeclarationAnnotation NamespaceAnnotation { get; set; }
+        public NamespaceAnnotation NamespaceAnnotation { get; set; }
     }
 }
